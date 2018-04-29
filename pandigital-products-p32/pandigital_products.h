@@ -1,7 +1,7 @@
 #ifndef PANDIGITAL_PRODUCTS_H
 #define PANDIGITAL_PRODUCTS_H
 
-#define MIN_PRODUCTS 1000
+#define MAX_PRODUCTS 100
 
 typedef struct {
     int multiplicand;
