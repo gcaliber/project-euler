@@ -1,11 +1,7 @@
 #ifndef PANDIGITAL_PRODUCTS_H
 #define PANDIGITAL_PRODUCTS_H
 
-typedef struct node {
-    char c[2];
-    struct node *children;
-    int child_count;
-} node_t;
+#define MIN_PRODUCTS 1000
 
 typedef struct {
     int multiplicand;
